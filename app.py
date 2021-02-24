@@ -7,7 +7,6 @@ from shutil import rmtree
 
 #from werkzeug import secure_filename
 
-
 app = Flask(__name__)
 
 app.config['UPLOAD_FOLDER'] = "./Archivos/"
